@@ -1,0 +1,30 @@
+# Dependencies & caches
+vendor/
+node_modules/
+.composer/
+
+# Environment & config overrides
+.env
+.env.local
+config/local.php
+
+# Uploaded files
+assets/uploads/
+uploads/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# PHP logs / cache
+*.log
+*.cache
+error_log
+
+# OS files
+.DS_Store
+desktop.ini
